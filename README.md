@@ -1,20 +1,13 @@
 kate-twig
 =========
 
-kate / katepart syntax highlighting for Twig
+KDE/Kate metin editörü için Twig template renklendirmesi sağlar.
 
-The Twig highlighting file was shamefully copied from the Django tpl syntax file.
+eMerzh/kate-twig esas alınarak hazırlanmıştır, lakin html taglarının ayrıştırılmasında Kate ile birlikte gelen html.xml dosyası (https://github.com/jgm/highlighting-kate/blob/master/xml/html.xml) esas alınmıştır.
 
-Installation
+Kurulum
 ============
 
-Just copy the file to your katepart directory.
-Usually:
+Ubuntu 15.04 (ve sonraki sürümler) için xml dosyasının şu klasöre kopyalanması yeterlidir.
 
-    cp ./twig.xml ~/.kde4/share/apps/katepart/syntax/
-
-    or
-
-    /home/USER/.local/share/katepart5/syntax/
-
-The syntax directory may need to be created first.
+    .local/share/katepart5/syntax/
