@@ -11,3 +11,6 @@ Kurulum
 Ubuntu 15.04 (ve sonraki sürümler) için xml dosyasının şu klasöre kopyalanması yeterlidir.
 
     .local/share/katepart5/syntax/
+
+# License
+You may copy and reproduce the project under GPL V3 license.
